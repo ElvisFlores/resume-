@@ -1,39 +1,46 @@
-.shadowbox {
-  width: 21cm;
-        height: 29.7cm;
-        margin: 30mm 45mm 30mm 45mm;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding: 48px 60px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CCCCFF; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
-
-img {
-  float: right;
+h2 {
+    margin: 0;
+    font-size: 2em; /* Increase header size for prominence */
 }
 
-#name {
-  display: inline;
-  font-size: large;
-  font-weight: bold;
-
+nav {
+    margin-bottom: 1.5rem; /* Spacing below navigation */
 }
 
-#contact {
-  display: inline;
+.nav-link {
+    font-weight: bold;
+    color: #007bff;
 }
 
-.column {
-  float: left;
-  width: 35%;
-  padding: 10px;
- 
+.nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover for clarity */
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+footer {
+    font-size: 0.9em;
+    color: #6c757d; /* Gray color for footer text */
+    padding: 1rem 0; /* Add padding for better spacing */
+}
+
+article {
+    text-align: center; /* Center align article content */
+    padding: 1rem; /* Add padding around the article */
+}
+
+article p {
+    line-height: 1.6; /* Better readability */
+    margin: 1rem 0; /* Add vertical spacing */
+    padding: 0 20px; /* Add side padding */
+}
+
+ul.list-unstyled {
+    padding-left: 0; /* Remove default padding */
 }
